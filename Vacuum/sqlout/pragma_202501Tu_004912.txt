@@ -1,0 +1,10 @@
+0|CodGrupo|CHAR(15)|1||0
+1|CodUsuario|CHAR(15)|0||0
+2|CodPrestamo|VARCHAR(25)|0||0
+3|CodPago|CHAR(2)|1||0
+4|MontoPrestamo|MONEY(13, 7)|0||0
+5|MontoGarantia|MONEY(13, 7)|0||0
+6|Observaciones|VARCHAR(100)|0||0
+7|FechReg|DATETIME|0||0
+8|FechUpd|DATETIME|0||0
+9|Exported|INTEGER|0|0|0
