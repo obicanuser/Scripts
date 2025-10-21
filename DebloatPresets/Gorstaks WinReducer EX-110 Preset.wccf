@@ -3,7 +3,7 @@
 <Packages>
   <WinReducerEX>110</WinReducerEX>
   <Version>v3.9.8.0</Version>
-  <Date>Sat 04 Oct 2025 4:07:58 PM</Date>
+  <Date>22-10-2025 04:48:05</Date>
   <Components>
     <Element Category="Appearance" Name="Activate Desktop Context Menu" Selected="false" Value="" />
     <Element Category="Appearance" Name="Safe Mode" Selected="false" Value="" />
@@ -79,7 +79,7 @@
     <Element Category="Features" Name="Windows Subsystem for Linux" Selected="true" Value="3" />
     <Element Category="Features" Name="Work Folders" Selected="false" Value="" />
     <Element Category="Features" Name="XPS Viewer and Printer" Selected="true" Value="3" />
-    <Element Category="Remove - Accessories" Name="16-bit Support" Selected="false" />
+    <Element Category="Remove - Accessories" Name="16-bit Support" Selected="true" />
     <Element Category="Remove - Accessories" Name="Adaptive Cards" Selected="true" />
     <Element Category="Remove - Accessories" Name="Administrative Tools (Active Directory Sites and Services)" Selected="true" />
     <Element Category="Remove - Accessories" Name="Administrative Tools (Active Directory Sites and Services) Shortcut" Selected="true" />
@@ -1224,7 +1224,7 @@
     <Element Category="Tweaks" Name="Explorer - Command Bar - Remove Include in Library" Selected="false" />
     <Element Category="Tweaks" Name="Explorer - Command Bar - Remove Library Pane" Selected="false" />
     <Element Category="Tweaks" Name="Explorer - Disable Ads and Notifications" Selected="true" />
-    <Element Category="Tweaks" Name="Explorer - Command Prompt instead of PowerShell" Selected="false" />
+    <Element Category="Tweaks" Name="Explorer - Command Prompt instead of PowerShell" Selected="true" />
     <Element Category="Tweaks" Name="Explorer - Disable Files and Folders Descriptions" Selected="false" />
     <Element Category="Tweaks" Name="Explorer - Disable Thumbnails" Selected="false" />
     <Element Category="Tweaks" Name="Explorer - Disable Thumbnails Cache" Selected="false" />
