@@ -158,33 +158,83 @@ Windows Registry Editor Version 5.00
 "EnforcementMode"=dword:00000001
 "AllowWindows"=dword:00000000
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SrpV2\Appx\00000000-0000-0000-0000-000000000001]
-"Value"="<FilePublisherRule Id="00000000-0000-0000-0000-000000000001" Name="Signed by *" Description="" UserOrGroupSid="S-1-2-1" Action="Allow"><Conditions><FilePublisherCondition PublisherName="*" ProductName="*" BinaryName="*"><BinaryVersionRange LowSection="*" HighSection="*"/></FilePublisherCondition></Conditions></FilePublisherRule>"
-
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SRPV2\Dll]
 "EnforcementMode"=dword:00000001
 "AllowWindows"=dword:00000000
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SRPV2\Dll\00000000-0000-0000-0000-000000000001]
-"Value"="<FilePublisherRule Id="00000000-0000-0000-0000-000000000001" Name="Signed by *" Description="" UserOrGroupSid="S-1-2-1" Action="Allow"><Conditions><FilePublisherCondition PublisherName="*" ProductName="*" BinaryName="*"><BinaryVersionRange LowSection="*" HighSection="*"/></FilePublisherCondition></Conditions></FilePublisherRule>"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SRPV2\Exe]
 "EnforcementMode"=dword:00000001
 "AllowWindows"=dword:00000000
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SRPV2\Exe\00000000-0000-0000-0000-000000000001]
-"Value"="<FilePublisherRule Id="00000000-0000-0000-0000-000000000001" Name="Signed by *" Description="" UserOrGroupSid="S-1-2-1" Action="Allow"><Conditions><FilePublisherCondition PublisherName="*" ProductName="*" BinaryName="*"><BinaryVersionRange LowSection="*" HighSection="*"/></FilePublisherCondition></Conditions></FilePublisherRule>"
-
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SRPV2\Msi]
+"EnforcementMode"=dword:00000001
+"AllowWindows"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SRPV2\Script]
 "EnforcementMode"=dword:00000001
 "AllowWindows"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SRPV2\Msi\00000000-0000-0000-0000-000000000001]
 "Value"="<FilePublisherRule Id="00000000-0000-0000-0000-000000000001" Name="Signed by *" Description="" UserOrGroupSid="S-1-2-1" Action="Allow"><Conditions><FilePublisherCondition PublisherName="*" ProductName="*" BinaryName="*"><BinaryVersionRange LowSection="*" HighSection="*"/></FilePublisherCondition></Conditions></FilePublisherRule>"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SRPV2\Script]
-"EnforcementMode"=dword:00000001
-"AllowWindows"=dword:00000000
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SRPV2\Script\00000000-0000-0000-0000-000000000001]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SRPV2\Script\00000000-0000-0000-0000-000000000002]
 "Value"="<FilePublisherRule Id="00000000-0000-0000-0000-000000000001" Name="Signed by *" Description="" UserOrGroupSid="S-1-2-1" Action="Allow"><Conditions><FilePublisherCondition PublisherName="*" ProductName="*" BinaryName="*"><BinaryVersionRange LowSection="*" HighSection="*"/></FilePublisherCondition></Conditions></FilePublisherRule>"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SrpV2\Appx\00000000-0000-0000-0000-000000000003]
+"Value"="<FilePublisherRule Id="00000000-0000-0000-0000-000000000001" Name="Signed by *" Description="" UserOrGroupSid="S-1-2-1" Action="Allow"><Conditions><FilePublisherCondition PublisherName="*" ProductName="*" BinaryName="*"><BinaryVersionRange LowSection="*" HighSection="*"/></FilePublisherCondition></Conditions></FilePublisherRule>"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SrpV2\Exe\{{3C19658D-9E61-4A9F-BC83-A88F67E51B78}}]
+"Action"="Allow"
+"Conditions"=hex:3c,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,73,00,3e,00,3c,00,46,00,69,00,6c,00,65,00,50,00,75,00,62,00,6c,00,69,00,73,00,68,00,65,00,72,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,20,00,50,00,75,00,62,00,6c,00,69,00,73,00,68,00,65,00,72,00,4e,00,61,00,6d,00,65,00,3d,00,22,00,2a,00,22,00,20,00,50,00,72,00,6f,00,64,00,75,00,63,00,74,00,4e,00,61,00,6d,00,65,00,3d,00,22,00,2a,00,22,00,20,00,42,00,69,00,6e,00,61,00,72,00,79,00,4e,00,61,00,6d,00,65,00,3d,00,22,00,2a,00,22,00,3e,00,3c,00,42,00,69,00,6e,00,61,00,72,00,79,00,56,00,65,00,72,00,73,00,69,00,6f,00,6e,00,52,00,61,00,6e,00,67,00,65,00,20,00,4c,00,6f,00,77,00,53,00,65,00,63,00,74,00,69,00,6f,00,6e,00,3d,00,22,00,2a,00,22,00,20,00,48,00,69,00,67,00,68,00,53,00,65,00,63,00,74,00,69,00,6f,00,6e,00,3d,00,22,00,2a,00,22,00,2f,00,3e,00,3c,00,2f,00,46,00,69,00,6c,00,65,00,50,00,75,00,62,00,6c,00,69,00,73,00,68,00,65,00,72,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,3e,00,3c,00,2f,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,73,00,3e,00
+"Description"="Allow all signed executables"
+"Name"="Allow Signed Exe"
+"UserOrGroupSid"="S-1-2-1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SrpV2\Dll\{{2915D278-C0D1-4EB6-B191-B151DE6B9299}}]
+"Action"="Allow"
+"Conditions"=hex:3c,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,73,00,3e,00,3c,00,46,00,69,00,6c,00,65,00,50,00,75,00,62,00,6c,00,69,00,73,00,68,00,65,00,72,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,20,00,50,00,75,00,62,00,6c,00,69,00,73,00,68,00,65,00,72,00,4e,00,61,00,6d,00,65,00,3d,00,22,00,2a,00,22,00,20,00,50,00,72,00,6f,00,64,00,75,00,63,00,74,00,4e,00,61,00,6d,00,65,00,3d,00,22,00,2a,00,22,00,20,00,42,00,69,00,6e,00,61,00,72,00,79,00,4e,00,61,00,6d,00,65,00,3d,00,22,00,2a,00,22,00,3e,00,3c,00,42,00,69,00,6e,00,61,00,72,00,79,00,56,00,65,00,72,00,73,00,69,00,6f,00,6e,00,52,00,61,00,6e,00,67,00,65,00,20,00,4c,00,6f,00,77,00,53,00,65,00,63,00,74,00,69,00,6f,00,6e,00,3d,00,22,00,2a,00,22,00,20,00,48,00,69,00,67,00,68,00,53,00,65,00,63,00,74,00,69,00,6f,00,6e,00,3d,00,22,00,2a,00,22,00,2f,00,3e,00,3c,00,2f,00,46,00,69,00,6c,00,65,00,50,00,75,00,62,00,6c,00,69,00,73,00,68,00,65,00,72,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,3e,00,3c,00,2f,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,73,00,3e,00
+"Description"="Allow all signed DLLs"
+"Name"="Allow Signed Dll"
+"UserOrGroupSid"="S-1-2-1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SrpV2\Exe\{{C4F1E6AB-48A6-4FFC-8E0C-03AFC1CAA1E9}}]
+"Action"="Allow"
+"Conditions"=hex:3c,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,73,00,3e,00,3c,00,46,00,69,00,6c,00,65,00,50,00,61,00,74,00,68,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,20,00,50,00,61,00,74,00,68,00,3d,00,22,00,25,00,57,00,49,00,4e,00,44,00,49,00,52,00,25,00,5c,00,2a,00,22,00,20,00,2f,00,3e,00,3c,00,2f,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,73,00,3e,00
+"Description"="Allow executables in WINDIR"
+"Name"="Allow Exe WINDIR"
+"UserOrGroupSid"="S-1-2-1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SrpV2\Dll\{{5683CFD7-A8A7-4E16-95CF-61D05E572383}}]
+"Action"="Allow"
+"Conditions"=hex:3c,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,73,00,3e,00,3c,00,46,00,69,00,6c,00,65,00,50,00,61,00,74,00,68,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,20,00,50,00,61,00,74,00,68,00,3d,00,22,00,25,00,57,00,49,00,4e,00,44,00,49,00,52,00,25,00,5c,00,2a,00,22,00,20,00,2f,00,3e,00,3c,00,2f,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,73,00,3e,00
+"Description"="Allow DLLs in WINDIR"
+"Name"="Allow Dll WINDIR"
+"UserOrGroupSid"="S-1-2-1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SrpV2\Exe\{{67AB7938-09A8-47DA-AF35-0B99D625DCEA}}]
+"Action"="Allow"
+"Conditions"=hex:3c,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,73,00,3e,00,3c,00,46,00,69,00,6c,00,65,00,50,00,61,00,74,00,68,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,20,00,50,00,61,00,74,00,68,00,3d,00,22,00,25,00,50,00,52,00,4f,00,47,00,52,00,41,00,4d,00,46,00,49,00,4c,00,45,00,53,00,25,00,5c,00,2a,00,22,00,20,00,2f,00,3e,00,3c,00,2f,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,73,00,3e,00
+"Description"="Allow executables in ProgramFiles"
+"Name"="Allow Exe ProgramFiles"
+"UserOrGroupSid"="S-1-2-1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SrpV2\Dll\{{B1B7617F-1292-4E5F-BEE9-C3904F6712F3}}]
+"Action"="Allow"
+"Conditions"=hex:3c,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,73,00,3e,00,3c,00,46,00,69,00,6c,00,65,00,50,00,61,00,74,00,68,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,20,00,50,00,61,00,74,00,68,00,3d,00,22,00,25,00,50,00,52,00,4f,00,47,00,52,00,41,00,4d,00,46,00,49,00,4c,00,45,00,53,00,25,00,5c,00,2a,00,22,00,20,00,2f,00,3e,00,3c,00,2f,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,73,00,3e,00
+"Description"="Allow DLLs in ProgramFiles"
+"Name"="Allow Dll ProgramFiles"
+"UserOrGroupSid"="S-1-2-1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SrpV2\Exe\{{0EBCFD23-1E46-40B8-9731-56C711A9671B}}]
+"Action"="Allow"
+"Conditions"=hex:3c,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,73,00,3e,00,3c,00,46,00,69,00,6c,00,65,00,50,00,61,00,74,00,68,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,20,00,50,00,61,00,74,00,68,00,3d,00,22,00,25,00,50,00,52,00,4f,00,47,00,52,00,41,00,4d,00,46,00,49,00,4c,00,45,00,53,00,28,00,58,00,38,00,36,00,29,00,25,00,5c,00,2a,00,22,00,20,00,2f,00,3e,00,3c,00,2f,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,73,00,3e,00
+"Description"="Allow executables in ProgramFilesx86"
+"Name"="Allow Exe ProgramFilesx86"
+"UserOrGroupSid"="S-1-2-1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SrpV2\Dll\{{8C1074F7-B7F8-4710-819D-E2B46BFF2351}}]
+"Action"="Allow"
+"Conditions"=hex:3c,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,73,00,3e,00,3c,00,46,00,69,00,6c,00,65,00,50,00,61,00,74,00,68,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,20,00,50,00,61,00,74,00,68,00,3d,00,22,00,25,00,50,00,52,00,4f,00,47,00,52,00,41,00,4d,00,46,00,49,00,4c,00,45,00,53,00,28,00,58,00,38,00,36,00,29,00,25,00,5c,00,2a,00,22,00,20,00,2f,00,3e,00,3c,00,2f,00,43,00,6f,00,6e,00,64,00,69,00,74,00,69,00,6f,00,6e,00,73,00,3e,00
+"Description"="Allow DLLs in ProgramFilesx86"
+"Name"="Allow Dll ProgramFilesx86"
+"UserOrGroupSid"="S-1-2-1"
