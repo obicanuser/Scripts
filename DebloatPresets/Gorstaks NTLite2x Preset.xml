@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="false" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>10/22/2025 06:30:55</Date>
+	<Date>10/22/2025 08:29:33</Date>
 	<AppInfo>
 		<Version>2025.10.10644</Version>
 		<Licensed>Yes</Licensed>
@@ -9,7 +9,7 @@
 	</AppInfo>
 	<ImageInfo>
 		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.1 (en-US)</Version>
-		<GUID>{2841F469-F4A4-49FA-A3A6-51F87226FAD3}</GUID>
+		<GUID>{25C2D002-D02B-48C2-B57C-0BDA05D5B661}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>aarsvc 'Agent Activation Runtime'</c>
@@ -25,7 +25,6 @@
 		<c>assignedaccess 'Assigned Access'</c>
 		<c>audit 'Windows Auditing'</c>
 		<c>auditmode 'Audit Mode'</c>
-		<c>autopilot</c>
 		<c>autoplay</c>
 		<c>azman32 'Authorization Manager - 32 bit'</c>
 		<c>azuread 'Azure Active Directory'</c>
@@ -240,10 +239,6 @@
 		<c>manifestbackup 'Manifest Backup (WinSxS\Backup)'</c>
 		<c>mapcontrol 'Map Control'</c>
 		<c>mcmsvc 'Mobile Connectivity Management'</c>
-		<c>mediaplayer 'Windows Media Player'</c>
-		<c>mediaplayer32 'Windows Media Player - 32 bit'</c>
-		<c>mediaplayernetworksharing 'WMP Network Sharing Service'</c>
-		<c>mediaplayernetworksharing32 'WMP Network Sharing Service - 32 bit'</c>
 		<c>microsoft.ecapp 'Eye Control'</c>
 		<c>microsoft.microsoftedge 'Microsoft Edge (Legacy)'</c>
 		<c>microsoft.microsoftedgedevtoolsclient 'Microsoft Edge DevTools Client'</c>
@@ -368,7 +363,6 @@
 			<Feature enabled="yes">iCloud</Feature>
 			<Feature enabled="yes">Kaspersky</Feature>
 			<Feature enabled="yes">NetworkDiscovery</Feature>
-			<Feature enabled="no">OOBE</Feature>
 			<Feature enabled="yes">SamsungSwitch</Feature>
 			<Feature enabled="no">ServicingStack</Feature>
 			<Feature enabled="no">SFC</Feature>
@@ -386,19 +380,55 @@
 		</MachineDrivers>
 	</Compatibility>
 	<Features>
+		<Feature name="Windows.DirectoryServices.ADAM.Client.Content~~~~">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Broadcom.Bcmpciedhd63~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Broadcom.Bcmwl63a~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Broadcom.Bcmwl63al~~~~0.0.1.0">false</Feature>
 		<Feature name="DirectPlay">true</Feature>
+		<Feature name="Language.Handwriting~~~en-us~0.0.1.0">false</Feature>
+		<Feature name="Language.OCR~~~en-us~0.0.1.0">false</Feature>
+		<Feature name="Language.Speech~~~en-us~0.0.1.0">false</Feature>
+		<Feature name="Language.TextToSpeech~~~en-us~0.0.1.0">false</Feature>
+		<Feature name="OneCoreUAP.OneSync~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Ethernet.Client.Intel.E1i68x64~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Ethernet.Client.Intel.E2f68~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwbw02~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwew00~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwew01~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwlv64~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwns64~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwsw00~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwtw02~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwtw04~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwtw06~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwtw08~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwtw10~~~~0.0.1.0">false</Feature>
 		<Feature name="LegacyComponents">true</Feature>
-		<Feature name="Media.WindowsMediaPlayer~~~~0.0.12.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Marvel.Mrvlpcie8897~~~~0.0.1.0">false</Feature>
+		<Feature name="MathRecognizer~~~~0.0.1.0">false</Feature>
+		<Feature name="Edge.Webview2.Platform~~~~">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Qualcomm.Athw8x~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Qualcomm.Athwnx~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Qualcomm.Qcamain10x64~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Ralink.Netr28x~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Ethernet.Client.Realtek.Rtcx21x64~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Realtek.Rtl8192se~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Realtek.Rtwlane~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Realtek.Rtwlane01~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Realtek.Rtwlane13~~~~0.0.1.0">false</Feature>
+		<Feature name="Windows.Telnet.Client~~~~">false</Feature>
+		<Feature name="Windows.Client.ProjFS~~~~">false</Feature>
 	</Features>
 	<Packages>
 		<Options>
-			<CleanHotfixedLeftovers>3</CleanHotfixedLeftovers>
 			<OptimizeAppX>true</OptimizeAppX>
 		</Options>
-		<File>C:\Users\Admin\Downloads\26200.7015_amd64_en-us_professional_2e5be87c_convert\ISOFOLDER\sources\sxs\microsoft-windows-netfx3-ondemand-package~31bf3856ad364e35~amd64~~.cab</File>
+		<File>D:\NTLite\microsoft-windows-netfx3-ondemand-package~31bf3856ad364e35~amd64~~.cab</File>
 	</Packages>
 	<Drivers>
-		<File>E:\mtkwl6ex.inf_amd64_01d61b4d701707d3\mtkwl6ex.inf</File>
+		<File>D:\Drivers\Storage controllers\iastorvd.inf_amd64_10cac26f038af014\iaStorVD.inf</File>
+		<File>D:\Drivers\Network adapters\mtkwl6ex.inf_amd64_01d61b4d701707d3\mtkwl6ex.inf</File>
+		<File>D:\Drivers\Storage controllers\secnvme.inf_amd64_6bb1acb34bfcb65e\secnvme.inf</File>
 	</Drivers>
 	<Tweaks>
 		<Settings>
@@ -438,9 +468,6 @@
 			</TweakGroup>
 		</Services>
 	</Tweaks>
-	<Registry>
-		<Item>C:\Users\Admin\Documents\SetupSkip.reg</Item>
-	</Registry>
 	<ApplyOptions>
 		<ImageTasks>
 			<Task>imageSaveTrim</Task>
@@ -448,4 +475,3 @@
 		</ImageTasks>
 	</ApplyOptions>
 </Preset>
-
