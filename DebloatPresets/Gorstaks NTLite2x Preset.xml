@@ -438,6 +438,9 @@
 			</TweakGroup>
 		</Services>
 	</Tweaks>
+	<Registry>
+		<Item>C:\Users\Admin\Documents\SetupSkip.reg</Item>
+	</Registry>
 	<ApplyOptions>
 		<ImageTasks>
 			<Task>imageSaveTrim</Task>
@@ -445,3 +448,4 @@
 		</ImageTasks>
 	</ApplyOptions>
 </Preset>
+
